@@ -1,0 +1,26 @@
+.home {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_containt {
+    padding: 0 7rem;
+    display: flex;
+}
+
+.home_title {
+    width: 50%;
+}
+
+.home_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.home_img img {
+    width: 70%;
+}
