@@ -12,15 +12,106 @@
 
 .home_title {
     width: 50%;
+    margin-left: 3rem;
+}
+
+.home_title h2 {
+    color: #f54c49;
+    font-size: 40px;
+}
+
+.home_title h1 {
+    color: #fff;
+    font-size: 50px;
+}
+
+.home_title p {
+    margin-top: 1rem;
+    color: rgb(180, 180, 180);
+    width: 90%;
+}
+
+.home_title h3 {
+    margin-top: 25px;
+    color: rgb(180, 180, 180);
+}
+
+.home_title button {
+    margin-top: 1rem;
+    font-size: 20px;
+    border: #f54c49 2px solid;
+    color: #f54c49;
+    background-color: #101a3f;
+    padding: .5rem 2rem;
 }
 
 .home_img {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
 
+.img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.068);
+    border-radius: 20px;
+    padding: 2rem;
+}
+
 .home_img img {
     width: 70%;
+    border-radius: 20px;
 }
+
+.cercle_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    background-color: #f54c4941;
+    right: 2rem;
+    bottom: 1rem;
+}
+
+.cercle_2 {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #f54c49d2;
+    padding: 1rem;
+    right: 0;
+    bottom: 0;
+}
+
+/* ------------------- experiances ---------------------------- */
+
+.experience {
+    height: 100vh;
+    padding: 4rem 0;
+}
+
+.circle_bar {
+    width: 10%;
+}
+
+.experience_content {
+    display: flex;
+    color: #fff;
+}
+
+.experience_year {
+
+    width: 30%;
+    margin-left: 12%;
+    border-top: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    border-left: 1px #fff solid;
+}
+

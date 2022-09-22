@@ -1,4 +1,21 @@
 .App {
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    position: fixed;
+    top: 9rem;
+    left: 3rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.header_icons {
+  color: rgb(224, 224, 224);
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: space-around;
 }

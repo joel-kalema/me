@@ -1,11 +1,19 @@
 import React from 'react';
-import './style.css';
+import { AiOutlineGithub } from 'react-icons/ai';
+import { ImLinkedin2 } from 'react-icons/im';
+import { BsTwitter } from 'react-icons/bs';
+import { FaAngellist } from 'react-icons/fa'
+import '../App.css';
 
 const Header =() => {
     return (
         <div className="header">
-            <AiOutlineGithub />
-            <ImLinkedin2 />
+            <div className='header_icons'>
+                <AiOutlineGithub />
+                <ImLinkedin2 />
+                <BsTwitter />
+                <FaAngellist />
+            </div>
         </div>
     );
 }
