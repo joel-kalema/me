@@ -93,6 +93,7 @@
 /* ------------------- experiances ---------------------------- */
 
 .experience {
+    border-top: #131f4d 1px solid;
     height: 100vh;
     padding: 4rem 0;
 }
@@ -104,14 +105,228 @@
 .experience_content {
     display: flex;
     color: #fff;
+    height: 80vh;
 }
 
 .experience_year {
-
-    width: 30%;
+    width: 40%;
+    height: 100%;
     margin-left: 12%;
     border-top: 1px #fff solid;
     border-bottom: 1px #fff solid;
     border-left: 1px #fff solid;
 }
 
+.experience_year h1 {
+    font-size: 11rem;
+    margin-top: 4rem;
+    margin-left: 20%;
+    color: rgb(180, 180, 180);
+}
+
+.experience_year h1 span {
+    color: #f54c49;
+}
+
+.experience_details {
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+}
+
+.experience_details .line {
+    width: 20%;
+    margin-top: 5rem;
+    margin-left: 6rem;
+    border-bottom: rgb(180, 180, 180) 2px solid;
+}
+
+.experience_details h3 {
+    margin-top: 1rem;
+}
+
+.experience_value  {
+    width: 60%;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.experience_value p {
+    color: rgb(180, 180, 180);
+    width: 80%;
+}
+
+.experience_value h1 {
+    color: #f54c49;
+}
+
+.circle_containt {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.circle_containt h5 {
+    margin-left: 2rem;
+}
+
+.circle_containt .CircularProgressbar {
+    width: 15%;
+}
+
+.circle_bar {
+    width: 15%;
+}
+
+/* ------------------- portofolio ---------------------------- */
+
+.portfolio {
+    padding: 6rem 0;
+    border-top: #131f4d 1px solid;
+    border-bottom: #131f4d 1px solid;
+}
+
+.portfolio_containt {
+    margin-left: 12%;
+}
+
+.portfolio_containt h1 {
+    margin-bottom: 2rem;
+    color: #f54c49;
+}
+
+.portfolio_containt h3 {
+    color: rgb(180, 180, 180);
+}
+
+.project {
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.project_container {
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    width: 32%;
+    background-color: rgba(255, 255, 255, 0.055);
+    height: 70vh;
+}
+
+.project_container h5 {
+    color: #f54c49;
+    font-size:  18px;
+}
+
+.project_container p {
+    color: rgb(180, 180, 180);
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+.project_links {
+    display: flex;
+    flex-direction: column;
+}
+
+.project_links a {
+    display: flex;
+    align-items: center;
+    margin-top: 6px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.project_links a span {
+    color: #f54c49;
+    margin-left: 10px;
+}
+
+.project_links a:hover {
+    color: #f54c49;
+}
+
+.technologies {
+    display: flex;
+    margin-top: 15px;
+}
+
+.technologies h4 {
+    background-color: rgba(255, 255, 255, 0.199);
+    color: rgb(180, 180, 180);
+    padding: 3px 10px;
+    border-radius: 5px;
+}
+
+.technologies h4:nth-child(even) {
+    margin-left: 10px;
+}
+
+.technologies h4:nth-child(3n-3) {
+    margin-left: 10px;
+}
+
+.project_container .img {
+    background-color: rgba(255, 167, 255, 0.678);
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    height: 10rem;
+}
+
+/* ------------------- about ---------------------------- */
+
+.about {
+    display: flex;
+    padding: 6rem 0;
+    border-top: #131f4d 1px solid;
+    border-bottom: #131f4d 1px solid;
+}
+
+.about_content {
+    margin-left: 12%;
+    width: 48%;
+}
+
+.about_content p {
+    color: rgb(180, 180, 180);
+    margin-top: 1rem;
+    width: 80%;
+}
+
+.about h1 {
+    color: #f54c49;
+}
+
+.about h3 {
+    color: #ffffff;
+}
+
+.about_langes {
+    width: 40%;
+    border-top: 1px #fff solid;
+    border-bottom: 1px #fff solid;
+    border-right: 1px #fff solid;
+    margin-right: 9%;
+    padding: 2rem 0;
+}
+
+.about_langes_tech {
+    width: 60%;
+    margin: 4rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about_langes_tech h4 {
+    margin-top: 5px;
+    color: rgb(180, 180, 180);
+}
+
+.about_langes_tech h4 span {
+    color: #f54c49;
+    margin-right: 10px;
+}
