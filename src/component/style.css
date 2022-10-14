@@ -27,7 +27,7 @@
 
 .home_title p {
     margin-top: 1rem;
-    font-size: 18px;
+    font-size: 1.2rem;
     color: #808dad;
     width: 90%;
 }
@@ -157,6 +157,7 @@
 
 .experience_value p {
     color: #808dad;
+    font-size: 18px;
     width: 80%;
 }
 
@@ -297,11 +298,12 @@
     color: #808dad;
     line-height: 1.2;
     margin-top: 1rem;
-    font-size: 18px;
+    font-size: 1.2rem;
     width: 80%;
 }
 
 .about h1 {
+    margin-bottom: 2rem;
     color: #f54c49;
 }
 
@@ -408,4 +410,81 @@
 .line_3 {
     bottom: -2rem; 
     left: -4rem
+}
+
+/* ------------------- contacts ---------------------------- */
+
+.contacts {
+    display: flex;
+    margin-left: 10%;
+    color: #808dad;
+}
+
+.info {
+    width: 50%;
+}
+
+.contacts h1 {
+    margin-bottom: 2rem;
+    color: #f54c49;
+}
+
+.contact_info {
+    margin-top: 3rem;
+}
+
+.contact_info h3 {
+    color: #fff;
+}
+
+.contact_info p {
+    margin-top: 1.2rem;
+    width: 70%;
+    font-size: 1.2rem;
+}
+
+.contact_info p span {
+    color: #f54c49;
+    background-color: #f54c492a;
+    font-size: 1.2rem;
+    padding: .5rem;
+}
+
+.form {
+    width: 50%;
+}
+
+.form h2 {
+    margin: 3rem;
+    margin-left: 46%;
+    font-style: italic;
+}
+
+.form form {
+    width: 80%;
+}
+
+.form form input,
+.form form textarea {
+    margin-top: .4rem;
+    outline: none;
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+    padding: 1rem .5rem;
+    color: #808dad;
+    background-color: rgba(255, 255, 255, 0);
+    border-bottom: 1px #808dad solid;
+}
+
+.form form textarea {
+    height: 10rem;
+}
+
+.form form button {
+    margin-top: .7rem;
+    border: none;
+    background-color: #f54c49;
+    font-size: 15px;
+    padding: .6rem 1rem;
 }
