@@ -4,9 +4,20 @@ import 'react-circular-progressbar/dist/styles.css';
 import './style.css';
 
 const Experience =() => {
-    const designPercentage = 85;
-    const electronicPercentage = 75;
-    const solvingPercentage = 70;
+    const pourcentage = [
+        {
+            fonction: 'WEB DESIGN',
+            percentage: 85
+        },
+        {
+            fonction: 'ELECTRONIC',
+            percentage: 75
+        },
+        {
+            fonction: 'PROBLEM SOLVING',
+            percentage: 70
+        }
+    ]
 
     return (
         <div className="experience">
@@ -27,48 +38,22 @@ const Experience =() => {
                     <p>I have serious passion for UI effects, animations
                        and creating intuitive, dynamic user experiences.</p>
                     <div>
-                        <div className='circle_containt'>
+                        {pourcentage.map((tech) => (
+                            <div className='circle_containt'>
                             <CircularProgressbar
                                 className='circle_bar'
-                                value={designPercentage}
+                                value={tech.percentage}
                                 circleRatio={0.75}
-                                text={`${designPercentage}%`}
+                                text={`${tech.percentage}%`}
                                 styles={buildStyles({
                                 rotation: 1 / 2 + 1 / 8,
                                 textColor: "#fff",
                                 pathColor: "#f54c49",
                             })}
                             />
-                            <h5>WEB DESIGN</h5>
+                            <h5>{tech.fonction}</h5>
                         </div>
-                        <div className='circle_containt'>
-                            <CircularProgressbar
-                                className='circle_bar'
-                                value={electronicPercentage}
-                                circleRatio={0.75}
-                                text={`${electronicPercentage}%`}
-                                styles={buildStyles({
-                                rotation: 1 / 2 + 1 / 8,
-                                textColor: "#fff",
-                                pathColor: "#f54c49",
-                            })}
-                            />
-                            <h5>ELECTRONIC</h5>
-                        </div>
-                        <div className='circle_containt'>
-                            <CircularProgressbar
-                                className='circle_bar'
-                                value={solvingPercentage}
-                                circleRatio={0.75}
-                                text={`${solvingPercentage}%`}
-                                styles={buildStyles({
-                                rotation: 1 / 2 + 1 / 8,
-                                textColor: "#fff",
-                                pathColor: "#f54c49",
-                            })}
-                            />
-                            <h5>PROBLEM SOLVING</h5>
-                        </div>
+                        ))}
                     </div> 
                 </div>
             </div>

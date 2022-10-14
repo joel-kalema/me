@@ -12,7 +12,7 @@
 
 .home_title {
     width: 50%;
-    margin-left: 3rem;
+    margin-left: 2rem;
 }
 
 .home_title h2 {
@@ -27,13 +27,15 @@
 
 .home_title p {
     margin-top: 1rem;
-    color: rgb(180, 180, 180);
+    font-size: 18px;
+    color: #808dad;
     width: 90%;
 }
 
 .home_title h3 {
+    font-size: 25px;
     margin-top: 25px;
-    color: rgb(180, 180, 180);
+    color: #808dad;
 }
 
 .home_title button {
@@ -111,7 +113,7 @@
 .experience_year {
     width: 40%;
     height: 100%;
-    margin-left: 12%;
+    margin-left: 10%;
     border-top: 1px #fff solid;
     border-bottom: 1px #fff solid;
     border-left: 1px #fff solid;
@@ -138,7 +140,7 @@
     width: 20%;
     margin-top: 5rem;
     margin-left: 6rem;
-    border-bottom: rgb(180, 180, 180) 2px solid;
+    border-bottom: #808dad 2px solid;
 }
 
 .experience_details h3 {
@@ -154,7 +156,7 @@
 }
 
 .experience_value p {
-    color: rgb(180, 180, 180);
+    color: #808dad;
     width: 80%;
 }
 
@@ -189,7 +191,7 @@
 }
 
 .portfolio_containt {
-    margin-left: 12%;
+    margin-left: 10%;
 }
 
 .portfolio_containt h1 {
@@ -198,7 +200,7 @@
 }
 
 .portfolio_containt h3 {
-    color: rgb(180, 180, 180);
+    color: #808dad;
 }
 
 .project {
@@ -222,7 +224,7 @@
 }
 
 .project_container p {
-    color: rgb(180, 180, 180);
+    color: #808dad;
     margin-top: 10px;
     margin-bottom: 7px;
 }
@@ -256,7 +258,7 @@
 
 .technologies h4 {
     background-color: rgba(255, 255, 255, 0.199);
-    color: rgb(180, 180, 180);
+    color: #808dad;
     padding: 3px 10px;
     border-radius: 5px;
 }
@@ -286,14 +288,16 @@
     border-bottom: #131f4d 1px solid;
 }
 
-.about_content {
-    margin-left: 12%;
-    width: 48%;
+.about_informations {
+    margin-left: 10%;
+    width: 50%;
 }
 
 .about_content p {
-    color: rgb(180, 180, 180);
+    color: #808dad;
+    line-height: 1.2;
     margin-top: 1rem;
+    font-size: 18px;
     width: 80%;
 }
 
@@ -306,27 +310,102 @@
 }
 
 .about_langes {
-    width: 40%;
-    border-top: 1px #fff solid;
-    border-bottom: 1px #fff solid;
-    border-right: 1px #fff solid;
+    width: 50%;
     margin-right: 9%;
     padding: 2rem 0;
 }
 
+.about_langes h3 {
+    color: #fff;
+}
+
 .about_langes_tech {
-    width: 60%;
-    margin: 4rem 0;
+    margin: 2rem 0;
     display: flex;
     justify-content: space-between;
 }
 
 .about_langes_tech h4 {
     margin-top: 5px;
-    color: rgb(180, 180, 180);
+    color: #808dad;
 }
 
 .about_langes_tech h4 span {
     color: #f54c49;
     margin-right: 10px;
+}
+
+.download_cv a {
+    margin-top: 0;
+    text-decoration: none;
+    font-size: 15px;
+    border: #f54c49 2px solid;
+    color: #f54c49;
+    background-color: #101a3f;
+    padding: .5rem 2rem;
+    cursor: pointer;
+}
+
+.download_cv .download {
+    font-size: 15px;
+    border: none;
+    border-bottom: 1px #f54c49 solid;
+    color: #f54c49;
+    background-color: #101a3f00;
+    padding: .3rem 1rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.about_picture {
+    position: relative;
+    margin-top: 6rem;
+    width: 50%;
+    background-color: #f54c49da;
+    width: 16rem;
+    height: 16rem;
+    border-radius: 81% 15% 46% 54% / 60% 40% 75% 40%; 
+}
+
+.about_picture img {
+    width: 100%;
+    margin-top: -2.5rem;
+    border-radius: 13% 100% 46% 54% / 60% 45% 85% 38%; 
+}
+
+.line_1,
+.line_2 {
+    position: absolute;
+    right: -4rem;
+}
+
+.line_3,
+.line_4 {
+    position: absolute;
+    left: -3rem;
+    bottom: -1rem;
+}
+
+.line_2,
+.line_4 {
+    height: 1rem;
+    width: 4rem;
+    background-color: #f54c49;
+}
+
+.line_1,
+.line_3 {
+    height: 1rem;
+    width: 4rem;
+    background-color: #ffffff;
+}
+
+.line_1 {
+    top: -1rem;
+    right: -5rem;
+}
+
+.line_3 {
+    bottom: -2rem; 
+    left: -4rem
 }

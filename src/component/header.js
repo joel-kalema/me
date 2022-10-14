@@ -9,10 +9,10 @@ const Header =() => {
     return (
         <div className="header">
             <div className='header_icons'>
-                <AiOutlineGithub />
-                <ImLinkedin2 />
-                <BsTwitter />
-                <FaAngellist />
+                <a href='#'><AiOutlineGithub /></a>
+                <a href='#'><ImLinkedin2 /></a>
+                <a href='#'><BsTwitter /></a>
+                <a href='#'><FaAngellist /></a>
             </div>
         </div>
     );
